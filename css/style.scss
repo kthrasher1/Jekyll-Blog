@@ -16,19 +16,19 @@
 
 body {
   font-family: $font-family;
+  color: $japanese-indigo;
+
+
 }
 
 a, a:visited {
-  color: $link-color;
+  color: $japanese-indigo;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: $buff;
 }
-
-
-
 
 #header {
   padding: 4px;
@@ -37,11 +37,12 @@ a:hover {
 #header .big {
   font-size:   140%;
   font-weight: bold;
+  color: $japanese-indigo;
 }
 
 #header .small {
-  font-size:    90%;
-  color:        grey;
+  font-size: 90%;
+  color: $green-sheen;
   padding-left: 15px;
 }
 
