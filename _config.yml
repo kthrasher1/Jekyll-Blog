@@ -17,6 +17,8 @@ nav:
 
 markdown: kramdown
 
+url: http://blog.kurtisthrasher.co.uk
+
 sass:
   sass_dir: css
   style:    expanded
