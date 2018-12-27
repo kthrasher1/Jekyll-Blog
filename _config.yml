@@ -7,9 +7,9 @@ Hull University with a keen interest in web technologies.'
 
 
 nav:
-- { title: 'Welcome',              href: '/' }
+- { title: 'Home',                 href: '/' }
 - { title: 'About',                href: 'https://github.com/kthrasher1'}
-- { title: 'Porfolio',             href: '' }
+- { title: 'Porfolio',             href: 'http://kurtisthrasher.co.uk' }
 
 
 #########################

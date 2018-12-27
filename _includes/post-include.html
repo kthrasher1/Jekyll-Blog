@@ -1,9 +1,9 @@
 <div class = "posts">
-<h2>Posts:</h2>
 <ul>
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }} " >{{ post.title }} </a>
+        <a href="{{ post.url }} " > <span class="post-title">{{ post.title }}</span> </a>
+        <span class="dates">{{ post.date | date:"%b %d" }}</span>
        
       </li>
       {% endfor %}

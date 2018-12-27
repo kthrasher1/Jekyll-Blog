@@ -2,11 +2,6 @@
 // css theme variables / settings
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-$font-family:  'Open Sans' ,sans-serif;
-
-$alice-blue: #F0F8FF;
-$green-sheen: #70A9A1;
-$japanese-indigo: #233D4D;
-$buff: #F3DE8A;
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import 'variables';
+@import 'global';
