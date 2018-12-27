@@ -24,10 +24,11 @@ body {
 }
 
 .headshot{
-  width: 90px;
-  height: 90px;
+  grid-area: image;
+  width: 110px;
+  height: 110px;
   border-radius: 5px;
-  position: relative;
+  transform: translate(0%,10%);
 
 }
 
@@ -83,6 +84,9 @@ li, ul{
   #read{
     color: $green-sheen;
   }
+  #read:hover{
+    color: $buff;
+  }
 }
 
 
@@ -109,18 +113,24 @@ a:hover {
 
 #header {
   margin-top: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   position: relative;
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "image big" "image small";
+  border-bottom: 2px solid $buff;
 }
 
 #header .big {
+  grid-area: big;
   font-size:   2.5em;
   font-weight: bold;
   color: $japanese-indigo;
 }
 
 #header .small {
-
+  grid-area: small;
   font-size: 100%;
   color: $green-sheen;
 
