@@ -111,7 +111,13 @@ a:hover {
 
 }
 
-
+#link{
+  color: $green-sheen;
+}
+#link:hover{
+  color: $buff;
+  text-decoration: underline;
+}
 
 #header {
   margin-top: 5%;
