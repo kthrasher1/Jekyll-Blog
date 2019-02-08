@@ -10,7 +10,7 @@ excerpt: >-
 
 ## Digital Checkup & Why your data security is important.
 
-![Image of the Front screen of Digital Checkup]({{site.url}}/_posts/digitalCheckup.png)
+![Image of the Front screen of Digital Checkup]({{site.url}}/img/digitalCheckup.png)
 
 Digital Checkup was a project created by myself and [Nathaniel Read](https://na.thaniel.uk/) for the Sustainable Computing module during the first year of our Computer Science degree. 
 
@@ -20,7 +20,7 @@ Our group for the module came up with an idea of an online application to give a
 
 Nathaniel focused on the backend whereas I focused on the front-end, Nathaniel used technologies such as Node.js, Express.js framework and Passport.js for local user authentication which was stored in a MongoDB. 
 
-![Photo of Login]({{site.url}}/_posts/DigitalCheckupLogin.png)
+![Photo of Login]({{site.url}}/img/DigitalCheckupLogin.png)
 
 
 Using MongoDB allowed Nathaniel to look up the registered email addresses with the HaveIBeenPWNed API, giving the user a detailed rundown on where their email has been compromised.
