@@ -21,7 +21,7 @@ The application functionality allowed staff to enter a student's location manual
 For the search I used Ajax (with jQuery) to create an auto-completion tool, this allowed the user to partially enter a location and then would filter the closest one that matched.
 
 ![Gif of search on website]({{site.baseurl}}/img/LocationStation.gif)
-__Gif showing all items with ' L '
+* Gif above showing all items that contain ' L ' 
 
 
 In conclusion, if I was to do this application again, I would use different technologies such as MySQL and use more JavaScript frameworks such as React.js. With that said I delivered the required functionality of the application, and letting it expose me to new technologies which were an interesting and engaging learning experience.
