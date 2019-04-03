@@ -14,7 +14,6 @@ With this background information, I designed and created Location Station!
 This project introduced me to many technologies that I haven't used before such as PHP, CSS Grid, Ajax and MS SQL. I really enjoyed learning about each one of them, especially the CSS Grid but if I was to do this project again I would choose MySQL over MS SQL just for the better integration with PHP. CSS Grid was a pleasure to use, and was made even easier with Google's developer tools which has a tool specifially for CSS Grid
 
 The application functionality allowed staff to enter a student's location manually with a selection of rooms in the University, also the application had a search feature where staff member(s) could see the last 24 hours of the student or of a location.
-
 For the search I used Ajax (with Jquery) to create an auto-completion tool, this allowed the user to partially enter a location and then would filter the closest one that matched.
 
 In conclusion,
