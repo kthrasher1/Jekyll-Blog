@@ -2,6 +2,7 @@
 published: true
 layout: posts
 title: All aboard! Next Stop PHP City
+excerpt: During the first semester in the second year of my degree (Computer Science) the coursework for Web Technologies was a PHP application, designed to track and store user's location for attendance.
 ---
 ## PHP Location Tracker
 
