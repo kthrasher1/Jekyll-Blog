@@ -6,7 +6,7 @@ excerpt: During the first semester in the second year of my degree (Computer Sci
 ---
 ## PHP Location Tracker
 
-![Picture of location tracker]({{site.baseurl}}//img/LocationStation.png)
+![Picture of location tracker]({{site.baseurl}}/img/LocationStation.png)
 
 During the first semester in the second year of my degree (Computer Science) the coursework for Web Technologies was a PHP application, designed to track and store user's location for attendance.
 
