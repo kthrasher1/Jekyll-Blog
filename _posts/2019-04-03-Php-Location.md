@@ -2,7 +2,10 @@
 published: true
 layout: posts
 title: All aboard! Next Stop PHP City
-excerpt: During the first semester in the second year of my degree (Computer Science) the coursework for Web Technologies was a PHP application, designed to track and store user's location for attendance.
+excerpt: >-
+  During the first semester in the second year of my degree (Computer Science)
+  the coursework for Web Technologies was a PHP application, designed to track
+  and store user's location for attendance.
 ---
 ## PHP Location Tracker
 
@@ -18,6 +21,7 @@ The application functionality allowed staff to enter a student's location manual
 For the search I used Ajax (with jQuery) to create an auto-completion tool, this allowed the user to partially enter a location and then would filter the closest one that matched.
 
 ![Gif of search on website]({{site.baseurl}}/img/LocationStation.gif)
+__Gif showing all items with ' L '
 
 
 In conclusion, if I was to do this application again, I would use different technologies such as MySQL and use more JavaScript frameworks such as React.js. With that said I delivered the required functionality of the application, and letting it expose me to new technologies which were an interesting and engaging learning experience.
