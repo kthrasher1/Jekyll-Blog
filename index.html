@@ -1,10 +1,45 @@
 ---
 layout: default
-title: Kurtis Thrasher // Blog
+title: Kurtis Thrasher | Blog
 ---
+<h1 class="title-cat">Latest Post:</h1>
+{% for post in site.categories.RecentlyPosted %}
+
+<article class='post'>
+  <h1 class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+    
+  </h1>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+     {{ post.excerpt | strip_html | truncatewords:35}}<br>
+    <a id = "read" href="{{ post.url }}">Read more...</a><br><br>
+</article>
+
+{% endfor %}
 
 
-{% for post in site.posts %}
+<h1 class="title-cat">2019:</h1>
+{% for post in site.categories.new %}
+
+<article class='post'>
+  <h1 class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">
+      {{ post.title }}
+    </a>
+    
+  </h1>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+     {{ post.excerpt | strip_html | truncatewords:35}}<br>
+    <a id = "read" href="{{ post.url }}">Read more...</a><br><br>
+</article>
+
+{% endfor %}
+
+<h1 class="title-cat">2018:</h1>
+
+{% for post in site.categories.old %}
 
 <article class='post'>
   <h1 class='post-title'>

@@ -2,10 +2,12 @@
 published: true
 layout: posts
 title: Digital Checkup & why it is important.
+categories: new
 excerpt: >-
   Digital Checkup was a project created by myself and Nathaniel
   Read for the Sustainable Computing module during the
   first year of our Computer Science degree.
+
 ---
 
 ## Digital Checkup & Why your data security is important.
