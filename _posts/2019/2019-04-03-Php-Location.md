@@ -2,6 +2,7 @@
 published: true
 layout: posts
 title: All aboard! Next Stop PHP City
+date: 2019-04-03
 categories: new
 excerpt: >-
   During the first semester in the second year of my degree (Computer Science)

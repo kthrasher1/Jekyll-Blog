@@ -2,6 +2,7 @@
 published: true
 layout: posts
 title: Digital Checkup & why it is important.
+date: 2019-02-08
 categories: new
 excerpt: >-
   Digital Checkup was a project created by myself and Nathaniel
