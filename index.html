@@ -2,44 +2,16 @@
 layout: default
 title: Kurtis Thrasher | Blog
 ---
-<h1 class="title-cat">Latest Post:</h1>
-{% for post in site.categories.RecentlyPosted %}
 
-<article class='post'>
-  <h1 class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-    
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-     {{ post.excerpt | strip_html | truncatewords:35}}<br>
-    <a id = "read" href="{{ post.url }}">Read more...</a><br><br>
-</article>
+{% assign sorted_posts = site.categories.post | sort: 'date' %}
 
-{% endfor %}
+{% for post in sorted_posts reversed %}
 
-
-<h1 class="title-cat">2019:</h1>
-{% for post in site.categories.new %}
-
-<article class='post'>
-  <h1 class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-    
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-     {{ post.excerpt | strip_html | truncatewords:35}}<br>
-    <a id = "read" href="{{ post.url }}">Read more...</a><br><br>
-</article>
-
-{% endfor %}
-
-<h1 class="title-cat">2018:</h1>
-
-{% for post in site.categories.old %}
+{% if forloop.first == true %}
+  <h1>Latest Post</h1> 
+{% else %}
+ <h1> {{ post.date | date: "%Y" }} </h1>
+{% endif %}
 
 <article class='post'>
   <h1 class='post-title'>

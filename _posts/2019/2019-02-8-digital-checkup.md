@@ -3,7 +3,7 @@ published: true
 layout: posts
 title: Digital Checkup & why it is important.
 date: 2019-02-08
-categories: new
+categories: post 
 excerpt: >-
   Digital Checkup was a project created by myself and Nathaniel
   Read for the Sustainable Computing module during the

@@ -3,7 +3,7 @@ published: true
 layout: posts
 title: All aboard! Next Stop PHP City
 date: 2019-04-03
-categories: new
+categories: post
 excerpt: >-
   During the first semester in the second year of my degree (Computer Science)
   the coursework for Web Technologies was a PHP application, designed to track

@@ -2,7 +2,7 @@
 published: false
 layout: posts
 date: 2019-12-23
-categories: new
+categories: post
 title: Pulse & queer history
 ---
 
