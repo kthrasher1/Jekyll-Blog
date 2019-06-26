@@ -1,6 +1,7 @@
 ---
 published: true
 layout: posts
+categories: new
 title: Pulse & queer history
 ---
 
